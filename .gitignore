@@ -1,0 +1,15 @@
+node_modules/
+native/
+.command/
+data.json
+*.log
+*.original
+.DS_Store
+.idea/
+.vscode/
+
+CLAUDE.md
+AGENTS.md
+.aider*
+.cursor*
+.codex*

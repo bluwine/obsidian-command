@@ -1,0 +1,29 @@
+/* command */
+.command-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  background: var(--background-primary);
+}
+
+.command-terminal {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--background-primary);
+}
+
+.command-terminal .xterm {
+  height: 100%;
+  padding: 14px 18px 18px;
+}
+
+.command-terminal .xterm-viewport,
+.command-terminal .xterm-screen {
+  background: transparent !important;
+}
+
+.command-terminal .xterm-rows {
+  letter-spacing: 0;
+}

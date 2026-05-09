@@ -1,0 +1,10 @@
+{
+  "id": "command",
+  "name": "Command",
+  "version": "0.0.1",
+  "minAppVersion": "1.5.0",
+  "description": "Terminal emulator inside Obsidian.",
+  "author": "bluwine",
+  "authorUrl": "https://github.com/bluwine",
+  "isDesktopOnly": true
+}
